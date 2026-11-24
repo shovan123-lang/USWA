@@ -1,128 +1,171 @@
-<html><head><meta charset="utf-8"><title>USWA Title Histories</title>
-<style>body{font-family:Georgia,'Times New Roman',serif;max-width:980px;margin:24px auto;padding:0 16px;color:#111;line-height:1.4}
-h1{margin-bottom:2px}h2{margin-top:34px;border-bottom:2px solid #222;padding-bottom:3px}
-.sub{color:#555;margin-top:0}table{border-collapse:collapse;width:100%;margin:8px 0 6px;font-size:15px}
-th,td{border:1px solid #bbb;padding:5px 7px;text-align:left;vertical-align:top}th{background:#eee}
-tr.vac td{background:#f6f6f6;color:#555;font-style:italic}td.n{text-align:center;width:28px}
-details{margin:2px 0 10px}summary{cursor:pointer;color:#036}ul{margin:4px 0 8px 18px;padding:0}
-li{margin:2px 0;font-size:14px}.cur{font-weight:bold}.toc a{margin-right:14px}.muted{color:#666}</style></head><body>
-<p><a href="WELCOME.HTM">&larr; Back to the card list</a></p>
-<h1>USWA Title Histories</h1>
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>USWA Title Histories · The TNM World Wrestling Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@400;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>:root{--paper:#f3eee3;--paper2:#e9e2d2;--ink:#1b1a17;--mute:#6a645a;--soft:#cfc6b3;--red:#b3261e;
+--head:'Anton',Impact,sans-serif;--cond:'Roboto Condensed',Arial Narrow,sans-serif;--serif:'Source Serif 4',Georgia,serif}
+*{box-sizing:border-box}html,body{margin:0;background:var(--paper);color:var(--ink)}
+body{font-family:var(--serif);font-size:16px;line-height:1.5;background-image:radial-gradient(rgba(0,0,0,.035) 1px,transparent 1px);background-size:3px 3px}
+a{color:inherit}.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+nav.main{position:sticky;top:0;z-index:20;background:var(--ink);color:var(--paper)}
+nav.main .wrap{display:flex;flex-wrap:wrap;align-items:stretch}
+nav.main a{font-family:var(--cond);font-weight:700;font-size:13.5px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;padding:11px 12px;border-bottom:4px solid transparent;white-space:nowrap}
+nav.main a:hover{background:#2c2a26}nav.main a.on{border-bottom-color:var(--c);background:#2c2a26}nav.main .sp{flex:1}
+.mast{border-bottom:4px double var(--ink);padding:18px 0 10px;text-align:center}
+.mast .top{display:flex;justify-content:space-between;gap:10px;font-family:var(--cond);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);border-bottom:1px solid var(--ink);padding-bottom:6px}
+.mast .top a{text-decoration:none}.mast .top a:hover{color:var(--red)}
+.mast .name{font-family:var(--head);font-weight:400;font-size:clamp(30px,5vw,52px);line-height:.95;margin:12px 0 4px;letter-spacing:.01em;text-transform:uppercase}
+.mast .name span{color:var(--red)}.mast .tag{font-style:italic;color:var(--mute);font-size:15px}
+.phead{border-top:10px solid var(--c);margin-top:22px;padding:14px 0 6px;border-bottom:1px solid var(--ink);display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap}
+.phead h1{font-family:var(--head);font-weight:400;font-size:clamp(38px,7vw,72px);line-height:.9;margin:0;text-transform:uppercase;color:var(--c)}
+.phead .stat{font-family:var(--cond);text-align:right;text-transform:uppercase;letter-spacing:.08em;font-size:12px;color:var(--mute)}
+.phead .stat b{display:block;font-family:var(--head);font-weight:400;font-size:28px;line-height:1;color:var(--ink);letter-spacing:.01em}
+.sub{font-style:italic;color:var(--mute);margin:10px 0 0}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 0}
+.toc a{font-family:var(--cond);font-weight:700;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;border:1.5px solid var(--ink);padding:4px 10px;background:var(--paper)}
+.toc a:hover{background:var(--ink);color:var(--paper)}
+h2.sec{font-family:var(--head);font-weight:400;text-transform:uppercase;font-size:28px;letter-spacing:.02em;margin:34px 0 10px;border-bottom:3px solid var(--ink);padding-bottom:4px;scroll-margin-top:60px}
+h2.sec::before{content:"";display:inline-block;width:12px;height:12px;background:var(--c);margin:0 10px 5px 0;vertical-align:middle}
+.tbl-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-family:var(--cond);font-size:14.5px}
+th{text-align:left;font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:12px;border-bottom:2px solid var(--ink);padding:6px 8px}
+td{border-bottom:1px solid var(--soft);padding:7px 8px;vertical-align:top}
+td a{color:var(--c);text-decoration:none;font-weight:600}td a:hover{text-decoration:underline}
+td.n{font-family:var(--head);font-size:20px;color:var(--mute);width:34px;text-align:center}
+td.who b{font-family:var(--serif);font-size:16px}
+tr.vac td{background:var(--paper2);color:var(--mute);font-style:italic}
+tr.now td{background:color-mix(in srgb,var(--c) 9%,transparent)}
+.cur{display:inline-block;font-weight:700;font-size:11px;letter-spacing:.1em;text-transform:uppercase;background:var(--c);color:#fff;padding:1px 6px;margin-right:4px}
+.muted{color:var(--mute)}.star{font-weight:700;white-space:nowrap}
+.status{font-family:var(--cond);border-left:4px solid var(--c);background:var(--paper2);padding:8px 12px}
+details{margin:6px 0 4px;border-left:3px solid var(--soft);padding-left:12px}
+summary{cursor:pointer;font-family:var(--cond);font-weight:700;font-size:13px;letter-spacing:.05em;text-transform:uppercase;color:var(--c);padding:3px 0}
+details ul{margin:4px 0 10px 16px;padding:0}details li{margin:3px 0;font-size:14.5px}
+details li a{color:var(--c);font-family:var(--cond);font-weight:700;text-decoration:none}
+footer{margin:40px 0 0;border-top:4px double var(--ink);padding:14px 0 30px;font-family:var(--cond);font-size:13px;color:var(--mute);text-align:center}
+footer a{font-weight:700;color:var(--ink);text-decoration:none;margin:0 8px}footer a:hover{color:var(--red)}
+@media(max-width:640px){nav.main .opt{display:none}nav.main a{padding:11px 9px}.mast .top span:not(:first-child){display:none}.mast .top{justify-content:center}.phead .stat{text-align:left}}</style></head><body style="--c:#a8650f">
+<nav class="main"><div class="wrap"><a href="https://shovan123-lang.github.io/TNMWorld/">&larr; Front Page</a><a href="WELCOME.HTM">USWA Card List</a><a class="on" href="#">Title Histories</a><span class="sp"></span><a class="opt" href="https://shovan123-lang.github.io/TNMWorld/#calendar">World Calendar</a></div></nav>
+<div class="wrap">
+<header class="mast"><div class="top"><span><a href="https://shovan123-lang.github.io/TNMWorld/">The TNM World Wrestling Report</a></span><span>USWA Archive</span><span>Through 7/17/1991</span></div><div class="name"><a href="https://shovan123-lang.github.io/TNMWorld/" style="text-decoration:none">The TNM World <span>Wrestling</span> Report</a></div><div class="tag">The Championship Ledger</div></header>
+<div class="phead"><h1>USWA<br>Title Histories</h1><div class="stat"><b>4</b>titles &middot; 15 reigns<br>through 7/17/1991</div></div>
 <p class="sub">Built from the show results on this site, through 7/17/1991. Reign lengths run to that date. Lineages start when this site's records begin.</p>
-<p class="toc"><a href="#t0">USWA Unified World Heavyweight</a><a href="#t1">USWA Southern Heavyweight</a><a href="#t2">USWA World Tag Team</a><a href="#t3">USWA Television</a></p>
-<h2 id="t0">USWA Unified World Heavyweight</h2>
-<table><tr><th>#</th><th>Champion</th><th>Won</th><th>Event</th><th>How</th><th>Reign</th></tr>
+<div class="toc"><a href="#t0">USWA Unified World Heavyweight</a><a href="#t1">USWA Southern Heavyweight</a><a href="#t2">USWA World Tag Team</a><a href="#t3">USWA Television</a></div>
+<h2 class="sec" id="t0">USWA Unified World Heavyweight</h2>
+<div class="tbl-wrap"><table><tr><th>#</th><th>Champion</th><th>Won</th><th>Event</th><th>How</th><th>Reign</th></tr>
 <tr class="vac"><td class="n"></td><td>Vacant</td><td>9/1/1990</td><td><a href="CHAMP-2B.HTM">Championship TV 09.01.1990 S1E1</a></td><td>Vacant. Eddie Marlin announces a one-night tournament for October 8 at the Mid South Coliseum.</td><td></td></tr>
-<tr><td class="n">1</td><td><b>Jerry Lawler</b></td><td>10/8/1990</td><td><a href="MEMPH-15.HTM">Memphis, TN 10.08.1990 Unified Title Tournament</a></td><td>[Finals]: Match for the vacant Unified Heavyweight Title: Jerry Lawler made Terry Funk submit to a sleeperhold in 0:09:26. <b>*** 3/4</b></td><td>105 days<br><span class="muted">8 defenses</span></td></tr>
-<tr><td class="n">2</td><td><b>Andre the Giant</b></td><td>Jan. 1991</td><td><a href="GAUNTLET.HTM">Gauntlet For The Gold</a></td><td>Andre the Giant pinned Jerry Lawler with the Elbowdrop in 0:05:23. <b>** 1/2</b></td><td>42 days<br><span class="muted">1 defense</span></td></tr>
-<tr><td class="n">3</td><td><b>Bret Hart</b></td><td>3/4/1991</td><td><a href="MEMPHI-4.HTM">Memphis, TN 3.4.1991 Fully Loaded</a></td><td>No-Countout-No-DQ-Match: Bret Hart pinned Andre the Giant after an inside cradle in 0:27:50. <b>** 1/4</b></td><td><span class="cur">Current</span>, 135+ days<br><span class="muted">4 defenses</span></td></tr>
-</table>
+<tr><td class="n">1</td><td class="who"><b>Jerry Lawler</b></td><td>10/8/1990</td><td><a href="MEMPH-15.HTM">Memphis, TN 10.08.1990 Unified Title Tournament</a></td><td>[Finals]: Match for the vacant Unified Heavyweight Title: Jerry Lawler made Terry Funk submit to a sleeperhold in 0:09:26. <span class="star">*** 3/4</span></td><td>105 days<br><span class="muted">8 defenses</span></td></tr>
+<tr><td class="n">2</td><td class="who"><b>Andre the Giant</b></td><td>Jan. 1991</td><td><a href="GAUNTLET.HTM">Gauntlet For The Gold</a></td><td>Andre the Giant pinned Jerry Lawler with the Elbowdrop in 0:05:23. <span class="star">** 1/2</span></td><td>42 days<br><span class="muted">1 defense</span></td></tr>
+<tr class="now"><td class="n">3</td><td class="who"><b>Bret Hart</b></td><td>3/4/1991</td><td><a href="MEMPHI-4.HTM">Memphis, TN 3.4.1991 Fully Loaded</a></td><td>No-Countout-No-DQ-Match: Bret Hart pinned Andre the Giant after an inside cradle in 0:27:50. <span class="star">** 1/4</span></td><td><span class="cur">Current</span>135+ days<br><span class="muted">4 defenses</span></td></tr>
+</table></div>
 <details><summary>Jerry Lawler: title defenses and notes (8 defenses)</summary><ul>
-<li><a href="EVANSV-5.HTM">10/16/1990 &middot; Evansville, IN 10.16.1990</a>: Jerry Lawler pinned Terry Funk with the Piledriver in 0:12:34. <b>****</b></li>
-<li><a href="LOUISV-F.HTM">10/18/1990 &middot; Louisville, KY 10.18.1990</a>: Jerry Lawler pinned Terry Funk after a fistdrop in 0:23:19. <b>*** 3/4</b></li>
-<li><a href="JONESB-1.HTM">10/19/1990 &middot; Jonesboro, AR 10.19.1990</a>: Jerry Lawler pinned Terry Funk with the Piledriver in 0:35:18. <b>*****</b></li>
-<li><a href="MEMPH-12.HTM">10/29/1990 &middot; Memphis, TN 10.29.1990 Grave Consequences</a>: Cage Match: Jerry Lawler pinned Terry Funk with the Piledriver in 0:13:38. <b>*** 1/2</b></li>
-<li><a href="MEMPH-11.HTM">11/5/1990 &middot; Memphis, TN 11.05.1990</a>: Jerry Lawler pinned Dick Murdoch with the Piledriver in 0:20:41. <b>****</b></li>
-<li><a href="MEMPH-10.HTM">11/12/1990 &middot; Memphis, TN 11.12.1990</a>: Jerry Lawler pinned Dick Murdoch with the Piledriver in 0:25:49. <b>****</b></li>
-<li><a href="THANKSGI.HTM">11/22/1990 &middot; Thanksgiving Thunder 1990</a>: Barbed Wire Match: Jerry Lawler pinned Terry Funk with the Piledriver in 0:20:25. <b>**** 1/4</b></li>
-<li><a href="CHAMP-17.HTM">1/19/1991 &middot; Championship TV 1.19.1991 S2_E3</a>: Jerry Lawler defeated Robert Fuller by countout in 0:14:45. <b>*** 1/4</b></li>
+<li><a href="EVANSV-5.HTM">10/16/1990 &middot; Evansville, IN 10.16.1990</a>: Jerry Lawler pinned Terry Funk with the Piledriver in 0:12:34. <span class="star">****</span></li>
+<li><a href="LOUISV-F.HTM">10/18/1990 &middot; Louisville, KY 10.18.1990</a>: Jerry Lawler pinned Terry Funk after a fistdrop in 0:23:19. <span class="star">*** 3/4</span></li>
+<li><a href="JONESB-1.HTM">10/19/1990 &middot; Jonesboro, AR 10.19.1990</a>: Jerry Lawler pinned Terry Funk with the Piledriver in 0:35:18. <span class="star">*****</span></li>
+<li><a href="MEMPH-12.HTM">10/29/1990 &middot; Memphis, TN 10.29.1990 Grave Consequences</a>: Cage Match: Jerry Lawler pinned Terry Funk with the Piledriver in 0:13:38. <span class="star">*** 1/2</span></li>
+<li><a href="MEMPH-11.HTM">11/5/1990 &middot; Memphis, TN 11.05.1990</a>: Jerry Lawler pinned Dick Murdoch with the Piledriver in 0:20:41. <span class="star">****</span></li>
+<li><a href="MEMPH-10.HTM">11/12/1990 &middot; Memphis, TN 11.12.1990</a>: Jerry Lawler pinned Dick Murdoch with the Piledriver in 0:25:49. <span class="star">****</span></li>
+<li><a href="THANKSGI.HTM">11/22/1990 &middot; Thanksgiving Thunder 1990</a>: Barbed Wire Match: Jerry Lawler pinned Terry Funk with the Piledriver in 0:20:25. <span class="star">**** 1/4</span></li>
+<li><a href="CHAMP-17.HTM">1/19/1991 &middot; Championship TV 1.19.1991 S2_E3</a>: Jerry Lawler defeated Robert Fuller by countout in 0:14:45. <span class="star">*** 1/4</span></li>
 </ul></details>
-<details><summary>Andre the Giant: title defenses and notes (1 defenses)</summary><ul>
-<li><a href="CHAMP-12.HTM">2/23/1991 &middot; Championship TV 2.23.1991 S2_E8</a>: Andre the Giant defeated Robert Fuller by disqualification in 0:07:25. <b>* 3/4</b></li>
+<details><summary>Andre the Giant: title defenses and notes (1 defense)</summary><ul>
+<li><a href="CHAMP-12.HTM">2/23/1991 &middot; Championship TV 2.23.1991 S2_E8</a>: Andre the Giant defeated Robert Fuller by disqualification in 0:07:25. <span class="star">* 3/4</span></li>
 </ul></details>
 <details><summary>Bret Hart: title defenses and notes (4 defenses)</summary><ul>
-<li><a href="NASHVILL.HTM">4/8/1991 &middot; Nashville, TN 4.8.1991 Debut show</a>: Bret Hart made Jacques Rougeau submit to the Sharpshooter in 0:21:22. <b>*****</b></li>
-<li><a href="MEMPHI-2.HTM">4/13/1991 &middot; Memphis, TN 4.13.1991 International Incident</a>: Bret Hart and Eddie Gilbert battled to a draw in 01:00:11. <b>**** 1/4</b></li>
-<li><a href="MEMPHI-1.HTM">4/27/1991 &middot; Memphis, TN 4.27.1991 The Three Way Dance</a>: Bret Hart made Toshiaki Kawada submit to a scorpion deathlock in 0:34:12. <b>***** 3/4</b></li>
-<li><a href="STAR_WAR.HTM">7/1/1991 &middot; Star Wars 1991</a>: Bret Hart made Kerry Von Erich submit to the Sharpshooter in 0:30:16. <b>**** 1/4</b></li>
+<li><a href="NASHVILL.HTM">4/8/1991 &middot; Nashville, TN 4.8.1991 Debut show</a>: Bret Hart made Jacques Rougeau submit to the Sharpshooter in 0:21:22. <span class="star">*****</span></li>
+<li><a href="MEMPHI-2.HTM">4/13/1991 &middot; Memphis, TN 4.13.1991 International Incident</a>: Bret Hart and Eddie Gilbert battled to a draw in 01:00:11. <span class="star">**** 1/4</span></li>
+<li><a href="MEMPHI-1.HTM">4/27/1991 &middot; Memphis, TN 4.27.1991 The Three Way Dance</a>: Bret Hart made Toshiaki Kawada submit to a scorpion deathlock in 0:34:12. <span class="star">***** 3/4</span></li>
+<li><a href="STAR_WAR.HTM">7/1/1991 &middot; Star Wars 1991</a>: Bret Hart made Kerry Von Erich submit to the Sharpshooter in 0:30:16. <span class="star">**** 1/4</span></li>
 </ul></details>
-<h2 id="t1">USWA Southern Heavyweight</h2>
-<table><tr><th>#</th><th>Champion</th><th>Won</th><th>Event</th><th>How</th><th>Reign</th></tr>
+<h2 class="sec" id="t1">USWA Southern Heavyweight</h2>
+<div class="tbl-wrap"><table><tr><th>#</th><th>Champion</th><th>Won</th><th>Event</th><th>How</th><th>Reign</th></tr>
 <tr class="vac"><td class="n"></td><td>Vacant</td><td>9/1/1990</td><td><a href="CHAMP-2B.HTM">Championship TV 09.01.1990 S1E1</a></td><td>The title is vacant when the USWA archive begins.</td><td></td></tr>
-<tr><td class="n">1</td><td><b>Dick Slater</b></td><td>9/1/1990</td><td><a href="CHAMP-2B.HTM">Championship TV 09.01.1990 S1E1</a></td><td>Match for the vacant Southern Heavyweight Title: Dick Slater pinned Dustin Rhodes with the Piledriver in 0:08:03. <b>* 1/2</b></td><td>47 days<br><span class="muted">4 defenses</span></td></tr>
-<tr><td class="n">2</td><td><b>Robert Fuller</b></td><td>10/18/1990</td><td><a href="LOUISV-F.HTM">Louisville, KY 10.18.1990</a></td><td>Robert Fuller made Dick Slater submit to the Fuller Leglock in 0:13:15. <b>** 3/4</b></td><td>35 days<br><span class="muted">7 defenses</span></td></tr>
-<tr><td class="n">3</td><td><b>Eddie Gilbert</b></td><td>11/22/1990</td><td><a href="THANKSGI.HTM">Thanksgiving Thunder 1990</a></td><td>Eddie Gilbert pinned Robert Fuller with the Piledriver in 0:17:17. <b>*** 1/2</b></td><td>60 days<br><span class="muted">1 defense</span></td></tr>
-<tr><td class="n">4</td><td><b>Jeff Jarrett</b></td><td>Jan. 1991</td><td><a href="GAUNTLET.HTM">Gauntlet For The Gold</a></td><td>Jeff Jarrett pinned Eddie Gilbert after a bodypress in 0:13:14. <b>*** 1/4</b></td><td>21 days<br><span class="muted">4 defenses</span></td></tr>
-<tr><td class="n">5</td><td><b>Steve Austin</b></td><td>2/11/1991</td><td><a href="MEMPHI-7.HTM">Memphis, TN 2.11.1991</a></td><td>Steve Austin pinned Jeff Jarrett after hitting him with a fire extinguisher in 0:08:03. <b>** 3/4</b></td><td><span class="cur">Current</span>, 156+ days<br><span class="muted">10 defenses</span></td></tr>
-</table>
+<tr><td class="n">1</td><td class="who"><b>Dick Slater</b></td><td>9/1/1990</td><td><a href="CHAMP-2B.HTM">Championship TV 09.01.1990 S1E1</a></td><td>Match for the vacant Southern Heavyweight Title: Dick Slater pinned Dustin Rhodes with the Piledriver in 0:08:03. <span class="star">* 1/2</span></td><td>47 days<br><span class="muted">4 defenses</span></td></tr>
+<tr><td class="n">2</td><td class="who"><b>Robert Fuller</b></td><td>10/18/1990</td><td><a href="LOUISV-F.HTM">Louisville, KY 10.18.1990</a></td><td>Robert Fuller made Dick Slater submit to the Fuller Leglock in 0:13:15. <span class="star">** 3/4</span></td><td>35 days<br><span class="muted">7 defenses</span></td></tr>
+<tr><td class="n">3</td><td class="who"><b>Eddie Gilbert</b></td><td>11/22/1990</td><td><a href="THANKSGI.HTM">Thanksgiving Thunder 1990</a></td><td>Eddie Gilbert pinned Robert Fuller with the Piledriver in 0:17:17. <span class="star">*** 1/2</span></td><td>60 days<br><span class="muted">1 defense</span></td></tr>
+<tr><td class="n">4</td><td class="who"><b>Jeff Jarrett</b></td><td>Jan. 1991</td><td><a href="GAUNTLET.HTM">Gauntlet For The Gold</a></td><td>Jeff Jarrett pinned Eddie Gilbert after a bodypress in 0:13:14. <span class="star">*** 1/4</span></td><td>21 days<br><span class="muted">4 defenses</span></td></tr>
+<tr class="now"><td class="n">5</td><td class="who"><b>Steve Austin</b></td><td>2/11/1991</td><td><a href="MEMPHI-7.HTM">Memphis, TN 2.11.1991</a></td><td>Steve Austin pinned Jeff Jarrett after hitting him with a fire extinguisher in 0:08:03. <span class="star">** 3/4</span></td><td><span class="cur">Current</span>156+ days<br><span class="muted">10 defenses</span></td></tr>
+</table></div>
 <details><summary>Dick Slater: title defenses and notes (4 defenses)</summary><ul>
-<li><a href="MEMPH-1A.HTM">9/3/1990 &middot; Memphis, TN 09.03.1990</a>: Match with Managers Banned From Ringside: Dustin Rhodes defeated Dick Slater by disqualification in 0:13:58. <b>** 1/2</b></li>
-<li><a href="MEMPH-19.HTM">9/10/1990 &middot; Memphis, TN 09.10.1990</a>: Match with Special Referee Robert Fuller: Dustin Rhodes defeated Dick Slater by disqualification in 0:14:45. <b>* 1/4</b></li>
-<li><a href="CHAMP-28.HTM">9/22/1990 &middot; Championship TV 09.22.1990 S1E4</a>: Dick Slater pinned Robert Fuller with the Piledriver in 0:11:09. <b>** 1/4</b></li>
-<li><a href="MEMPH-16.HTM">10/1/1990 &middot; Memphis, TN 10.01.1990</a>: Dick Slater pinned Steven Doll with the Piledriver in 0:02:09. <b>-3/4*</b></li>
+<li><a href="MEMPH-1A.HTM">9/3/1990 &middot; Memphis, TN 09.03.1990</a>: Match with Managers Banned From Ringside: Dustin Rhodes defeated Dick Slater by disqualification in 0:13:58. <span class="star">** 1/2</span></li>
+<li><a href="MEMPH-19.HTM">9/10/1990 &middot; Memphis, TN 09.10.1990</a>: Match with Special Referee Robert Fuller: Dustin Rhodes defeated Dick Slater by disqualification in 0:14:45. <span class="star">* 1/4</span></li>
+<li><a href="CHAMP-28.HTM">9/22/1990 &middot; Championship TV 09.22.1990 S1E4</a>: Dick Slater pinned Robert Fuller with the Piledriver in 0:11:09. <span class="star">** 1/4</span></li>
+<li><a href="MEMPH-16.HTM">10/1/1990 &middot; Memphis, TN 10.01.1990</a>: Dick Slater pinned Steven Doll with the Piledriver in 0:02:09. <span class="star">-3/4*</span></li>
 </ul></details>
 <details><summary>Robert Fuller: title defenses and notes (7 defenses)</summary><ul>
-<li><a href="MEMPH-13.HTM">10/22/1990 &middot; Memphis, TN 10.22.1990</a>: Robert Fuller defeated Dick Slater when Dick Slater passed out in the Fuller Leglock in 0:11:21. <b>**** 1/4</b></li>
-<li><a href="EVANSV-4.HTM">10/23/1990 &middot; Evansville, IN 10.23.1990</a>: Robert Fuller made Sweet Daddy Falcone submit to the Fuller Leglock in 0:09:16. <b>** 1/4</b></li>
-<li><a href="LOUISV-E.HTM">10/26/1990 &middot; Louisville, KY 10.26.1990</a>: Robert Fuller made Sweet Daddy Falcone submit to the Fuller Leglock in 0:10:55. <b>**</b></li>
-<li><a href="CHAMP-23.HTM">10/27/1990 &middot; Championship TV 10.27.1990 S1E9</a>: Robert Fuller defeated The Masked Avenger when The Masked Avenger passed out in the Fuller Leglock in 0:04:01. <b>***</b></li>
-<li><a href="EVANSV-3.HTM">10/30/1990 &middot; Evansville, IN 10.30.1990</a>: Robert Fuller pinned Dutch Mantell after a small package in 0:23:20. <b>**** 1/4</b></li>
-<li><a href="LOUISV-C.HTM">11/8/1990 &middot; Louisville, KY 11.08.1990</a>: Robert Fuller defeated Billy Joe Travis when Billy Joe Travis passed out in the Fuller Leglock in 0:11:18. <b>*** 3/4</b></li>
-<li><a href="MEMPHI-F.HTM">11/19/1990 &middot; Memphis, TN 11.19.1990</a>: Robert Fuller pinned Billy Joe Travis after a piledriver in 0:14:01. <b>** 1/2</b></li>
+<li><a href="MEMPH-13.HTM">10/22/1990 &middot; Memphis, TN 10.22.1990</a>: Robert Fuller defeated Dick Slater when Dick Slater passed out in the Fuller Leglock in 0:11:21. <span class="star">**** 1/4</span></li>
+<li><a href="EVANSV-4.HTM">10/23/1990 &middot; Evansville, IN 10.23.1990</a>: Robert Fuller made Sweet Daddy Falcone submit to the Fuller Leglock in 0:09:16. <span class="star">** 1/4</span></li>
+<li><a href="LOUISV-E.HTM">10/26/1990 &middot; Louisville, KY 10.26.1990</a>: Robert Fuller made Sweet Daddy Falcone submit to the Fuller Leglock in 0:10:55. <span class="star">**</span></li>
+<li><a href="CHAMP-23.HTM">10/27/1990 &middot; Championship TV 10.27.1990 S1E9</a>: Robert Fuller defeated The Masked Avenger when The Masked Avenger passed out in the Fuller Leglock in 0:04:01. <span class="star">***</span></li>
+<li><a href="EVANSV-3.HTM">10/30/1990 &middot; Evansville, IN 10.30.1990</a>: Robert Fuller pinned Dutch Mantell after a small package in 0:23:20. <span class="star">**** 1/4</span></li>
+<li><a href="LOUISV-C.HTM">11/8/1990 &middot; Louisville, KY 11.08.1990</a>: Robert Fuller defeated Billy Joe Travis when Billy Joe Travis passed out in the Fuller Leglock in 0:11:18. <span class="star">*** 3/4</span></li>
+<li><a href="MEMPHI-F.HTM">11/19/1990 &middot; Memphis, TN 11.19.1990</a>: Robert Fuller pinned Billy Joe Travis after a piledriver in 0:14:01. <span class="star">** 1/2</span></li>
 </ul></details>
-<details><summary>Eddie Gilbert: title defenses and notes (1 defenses)</summary><ul>
-<li><a href="MEMPHI-E.HTM">12/3/1990 &middot; Memphis, TN 12.03.1990 Tag League</a>: Eddie Gilbert pinned Dustin Rhodes with the Piledriver in 0:12:16. <b>*** 1/4</b></li>
+<details><summary>Eddie Gilbert: title defenses and notes (1 defense)</summary><ul>
+<li><a href="MEMPHI-E.HTM">12/3/1990 &middot; Memphis, TN 12.03.1990 Tag League</a>: Eddie Gilbert pinned Dustin Rhodes with the Piledriver in 0:12:16. <span class="star">*** 1/4</span></li>
 </ul></details>
 <details><summary>Jeff Jarrett: title defenses and notes (4 defenses)</summary><ul>
-<li><a href="MEMPHI-9.HTM">1/28/1991 &middot; Memphis, TN 1.28.1991</a>: Jeff Jarrett pinned Honky Tonk Man with the dropkick from second rope in 0:18:51. <b>*** 1/2</b></li>
-<li><a href="LOUISV-8.HTM">2/1/1991 &middot; Louisville, KY 2.1.1991</a>: Jeff Jarrett defeated Eddie Gilbert by countout in 0:09:10. <b>** 3/4</b></li>
-<li><a href="CHAMP-15.HTM">2/2/1991 &middot; Championship TV 2.2.1991 S2_E5</a>: Jeff Jarrett defeated Scotty Flamingo by disqualification in 0:23:41. <b>** 3/4</b></li>
-<li><a href="CHAMP-14.HTM">2/9/1991 &middot; Championship TV 2.09.1991 S2_E6</a>: Eddie Gilbert defeated Jeff Jarrett by countout in 0:14:15. <b>*** 1/2</b></li>
+<li><a href="MEMPHI-9.HTM">1/28/1991 &middot; Memphis, TN 1.28.1991</a>: Jeff Jarrett pinned Honky Tonk Man with the dropkick from second rope in 0:18:51. <span class="star">*** 1/2</span></li>
+<li><a href="LOUISV-8.HTM">2/1/1991 &middot; Louisville, KY 2.1.1991</a>: Jeff Jarrett defeated Eddie Gilbert by countout in 0:09:10. <span class="star">** 3/4</span></li>
+<li><a href="CHAMP-15.HTM">2/2/1991 &middot; Championship TV 2.2.1991 S2_E5</a>: Jeff Jarrett defeated Scotty Flamingo by disqualification in 0:23:41. <span class="star">** 3/4</span></li>
+<li><a href="CHAMP-14.HTM">2/9/1991 &middot; Championship TV 2.09.1991 S2_E6</a>: Eddie Gilbert defeated Jeff Jarrett by countout in 0:14:15. <span class="star">*** 1/2</span></li>
 </ul></details>
 <details><summary>Steve Austin: title defenses and notes (10 defenses)</summary><ul>
-<li><a href="LOUISV-4.HTM">3/1/1991 &middot; Louisville, Ky 3.1.1991</a>: Steve Austin pinned Jeff Jarrett with the Stun Gun in 0:15:33. <b>*** 1/4</b></li>
-<li><a href="MEMPHI-4.HTM">3/4/1991 &middot; Memphis, TN 3.4.1991 Fully Loaded</a>: No-Countout-No-DQ-Match: Steve Austin defeated Jeff Jarrett via pinfall in 0:13:54. <b>*** 1/4</b></li>
-<li><a href="GALVESTO.HTM">3/29/1991 &middot; Galveston, TX 3.29.1991</a>: Steve Austin defeated Sweet Daddy Falcone via pinfall in 0:06:12. <b>* 1/4</b></li>
-<li><a href="DALLAS__.HTM">3/30/1991 &middot; Dallas, TX Sportatorium debut 3.30.1991</a>: Steve Austin pinned Robert Fuller with the Stun Gun in 0:21:57. <b>*** 1/2</b></li>
-<li><a href="NASHVILL.HTM">4/8/1991 &middot; Nashville, TN 4.8.1991 Debut show</a>: Steve Austin pinned Sam Houston after a headlock takedown in 0:05:55. Steve Austin suffered a back injury. He will be out for approximately 3 cards. <b>*** 1/4</b></li>
-<li><a href="MEMPHIS_.HTM">5/11/1991 &middot; Memphis,TN 5.11.1991</a>: Steve Austin pinned Toshiaki Kawada with the Stun Gun in 0:20:21. <b>*** 1/2</b></li>
-<li><a href="FRIDAY-2.HTM">5/24/1991 &middot; Friday Night Fights 5.24.1991 S1_E1</a>: Steve Austin pinned Nightmare Danny Davis with the Stun Gun in 0:10:26. <b>** 3/4</b></li>
-<li><a href="CHAMPI-5.HTM">6/1/1991 &middot; Championship TV 6.01.1991 S2_E21</a>: Match with Managers Banned From Ringside: Steve Austin pinned The Spellbinder with the Stun Gun in 0:09:11. <b>*** 1/2</b></li>
-<li><a href="STAR_WAR.HTM">7/1/1991 &middot; Star Wars 1991</a>: Steve Austin pinned Brickhouse Brown with the Stun Gun in 0:15:05. <b>***</b></li>
-<li><a href="LOUISVIL.HTM">7/13/1991 &middot; Louisville, KY 7.13.1991</a>: Steve Austin and Diamond Studd battled to a double countout in 0:21:15. <b>****</b></li>
+<li><a href="LOUISV-4.HTM">3/1/1991 &middot; Louisville, Ky 3.1.1991</a>: Steve Austin pinned Jeff Jarrett with the Stun Gun in 0:15:33. <span class="star">*** 1/4</span></li>
+<li><a href="MEMPHI-4.HTM">3/4/1991 &middot; Memphis, TN 3.4.1991 Fully Loaded</a>: No-Countout-No-DQ-Match: Steve Austin defeated Jeff Jarrett via pinfall in 0:13:54. <span class="star">*** 1/4</span></li>
+<li><a href="GALVESTO.HTM">3/29/1991 &middot; Galveston, TX 3.29.1991</a>: Steve Austin defeated Sweet Daddy Falcone via pinfall in 0:06:12. <span class="star">* 1/4</span></li>
+<li><a href="DALLAS__.HTM">3/30/1991 &middot; Dallas, TX Sportatorium debut 3.30.1991</a>: Steve Austin pinned Robert Fuller with the Stun Gun in 0:21:57. <span class="star">*** 1/2</span></li>
+<li><a href="NASHVILL.HTM">4/8/1991 &middot; Nashville, TN 4.8.1991 Debut show</a>: Steve Austin pinned Sam Houston after a headlock takedown in 0:05:55. Steve Austin suffered a back injury. He will be out for approximately 3 cards. <span class="star">*** 1/4</span></li>
+<li><a href="MEMPHIS_.HTM">5/11/1991 &middot; Memphis,TN 5.11.1991</a>: Steve Austin pinned Toshiaki Kawada with the Stun Gun in 0:20:21. <span class="star">*** 1/2</span></li>
+<li><a href="FRIDAY-2.HTM">5/24/1991 &middot; Friday Night Fights 5.24.1991 S1_E1</a>: Steve Austin pinned Nightmare Danny Davis with the Stun Gun in 0:10:26. <span class="star">** 3/4</span></li>
+<li><a href="CHAMPI-5.HTM">6/1/1991 &middot; Championship TV 6.01.1991 S2_E21</a>: Match with Managers Banned From Ringside: Steve Austin pinned The Spellbinder with the Stun Gun in 0:09:11. <span class="star">*** 1/2</span></li>
+<li><a href="STAR_WAR.HTM">7/1/1991 &middot; Star Wars 1991</a>: Steve Austin pinned Brickhouse Brown with the Stun Gun in 0:15:05. <span class="star">***</span></li>
+<li><a href="LOUISVIL.HTM">7/13/1991 &middot; Louisville, KY 7.13.1991</a>: Steve Austin and Diamond Studd battled to a double countout in 0:21:15. <span class="star">****</span></li>
 </ul></details>
-<h2 id="t2">USWA World Tag Team</h2>
-<table><tr><th>#</th><th>Champion</th><th>Won</th><th>Event</th><th>How</th><th>Reign</th></tr>
+<h2 class="sec" id="t2">USWA World Tag Team</h2>
+<div class="tbl-wrap"><table><tr><th>#</th><th>Champion</th><th>Won</th><th>Event</th><th>How</th><th>Reign</th></tr>
 <tr class="vac"><td class="n"></td><td>Vacant</td><td>9/1/1990</td><td><a href="CHAMP-2B.HTM">Championship TV 09.01.1990 S1E1</a></td><td>Stripped from Don Harris &amp; Brian Lee after they refused to sign exclusive USWA contracts.</td><td></td></tr>
-<tr><td class="n">1</td><td><b>The Dirty White Boys</b></td><td>10/4/1990</td><td><a href="LOUIS-11.HTM">Louisville, KY 10.04.1990 &quot;Tag Team Frenzy&quot;</a></td><td>Team Elimination match for the vacant World Tag Team Championship Titles: Dirty White Boy and Tom Burton won a 6-team Elimination Match: x White Boy defeated R. Steiner (partner: Scott Steiner) after the Bucksnort Blaster in 0:07:14 x Murdoch defeated Jeff Jarrett (partner: Jeff Gaylord) after a... <b>** 1/4</b></td><td>37 days<br><span class="muted">7 defenses</span></td></tr>
-<tr><td class="n">2</td><td><b>The Nightmares</b></td><td>11/10/1990</td><td><a href="CHAMP-21.HTM">Championship TV 11.10.1990 S1E11</a></td><td>Main Event: The Nightmares (Nightmare Danny Davis and Nightmare Ken Wayne) defeated The Dirty White Boys (Dirty White Boy and Tom Burton) when Nightmare Danny Davis pinned T. Burton with the FLYING STOMP in 0:08:20. <b>* 1/2</b></td><td>72 days<br><span class="muted">1 defense</span></td></tr>
-<tr><td class="n">3</td><td><b>The Steiner Brothers</b></td><td>Jan. 1991</td><td><a href="GAUNTLET.HTM">Gauntlet For The Gold</a></td><td>The Steiner Brothers (Rick Steiner and Scott Steiner) defeated The Nightmares (Nightmare Danny Davis and Nightmare Ken Wayne) when S. Steiner pinned Nightmare Danny Davis after a powerslam in 0:17:51. <b>*** 3/4</b></td><td>49 days<br><span class="muted">4 defenses</span></td></tr>
-<tr><td class="n">4</td><td><b>The Von Erich Brothers</b></td><td>3/11/1991</td><td><a href="MEMPHI-3.HTM">Memphis, TN 3.11.1991</a></td><td>The Von Erich Brothers (Kerry Von Erich and Kevin Von Erich) defeated The Steiner Brothers (Rick Steiner and Scott Steiner) when Kevin Von Erich made R. Steiner submit to a wristlock in 0:34:41. <b>*****</b></td><td>47 days<br><span class="muted">1 defense</span></td></tr>
-<tr><td class="n">5</td><td><b>The Steiner Brothers</b></td><td>4/27/1991</td><td><a href="MEMPHI-1.HTM">Memphis, TN 4.27.1991 The Three Way Dance</a></td><td>Triangle Match: The Steiner Brothers (Rick Steiner and Scott Steiner) defeated The Von Erich Brothers (Kerry Von Erich and Kevin Von Erich) and Dutch Mantell and Jerry Lawler when S. Steiner pinned Dutch Mantell after a powerslam in 0:26:53. <b>****</b></td><td>70 days<br><span class="muted">1 defense</span></td></tr>
-<tr><td class="n">6</td><td><b>Scott Steiner &amp; Tully Blanchard</b></td><td>7/6/1991</td><td><a href="CHAMPION.HTM">Championship TV 7.6.1991 S2_E26</a></td><td>Recognized as champions: Scott Steiner hands Tully Blanchard one of the belts and Eddie Marlin announces them as champions.</td><td><span class="cur">Current</span>, 11+ days<br><span class="muted">0 defenses</span></td></tr>
-</table>
+<tr><td class="n">1</td><td class="who"><b>The Dirty White Boys</b></td><td>10/4/1990</td><td><a href="LOUIS-11.HTM">Louisville, KY 10.04.1990 &quot;Tag Team Frenzy&quot;</a></td><td>Team Elimination match for the vacant World Tag Team Championship Titles: Dirty White Boy and Tom Burton won a 6-team Elimination Match: x White Boy defeated R. Steiner (partner: Scott Steiner) after the Bucksnort Blaster in 0:07:14 x Murdoch defeated Jeff Jarrett (partner: Jeff Gaylord) after a... <span class="star">** 1/4</span></td><td>37 days<br><span class="muted">7 defenses</span></td></tr>
+<tr><td class="n">2</td><td class="who"><b>The Nightmares</b></td><td>11/10/1990</td><td><a href="CHAMP-21.HTM">Championship TV 11.10.1990 S1E11</a></td><td>Main Event: The Nightmares (Nightmare Danny Davis and Nightmare Ken Wayne) defeated The Dirty White Boys (Dirty White Boy and Tom Burton) when Nightmare Danny Davis pinned T. Burton with the FLYING STOMP in 0:08:20. <span class="star">* 1/2</span></td><td>72 days<br><span class="muted">1 defense</span></td></tr>
+<tr><td class="n">3</td><td class="who"><b>The Steiner Brothers</b></td><td>Jan. 1991</td><td><a href="GAUNTLET.HTM">Gauntlet For The Gold</a></td><td>The Steiner Brothers (Rick Steiner and Scott Steiner) defeated The Nightmares (Nightmare Danny Davis and Nightmare Ken Wayne) when S. Steiner pinned Nightmare Danny Davis after a powerslam in 0:17:51. <span class="star">*** 3/4</span></td><td>49 days<br><span class="muted">4 defenses</span></td></tr>
+<tr><td class="n">4</td><td class="who"><b>The Von Erich Brothers</b></td><td>3/11/1991</td><td><a href="MEMPHI-3.HTM">Memphis, TN 3.11.1991</a></td><td>The Von Erich Brothers (Kerry Von Erich and Kevin Von Erich) defeated The Steiner Brothers (Rick Steiner and Scott Steiner) when Kevin Von Erich made R. Steiner submit to a wristlock in 0:34:41. <span class="star">*****</span></td><td>47 days<br><span class="muted">1 defense</span></td></tr>
+<tr><td class="n">5</td><td class="who"><b>The Steiner Brothers</b></td><td>4/27/1991</td><td><a href="MEMPHI-1.HTM">Memphis, TN 4.27.1991 The Three Way Dance</a></td><td>Triangle Match: The Steiner Brothers (Rick Steiner and Scott Steiner) defeated The Von Erich Brothers (Kerry Von Erich and Kevin Von Erich) and Dutch Mantell and Jerry Lawler when S. Steiner pinned Dutch Mantell after a powerslam in 0:26:53. <span class="star">****</span></td><td>70 days<br><span class="muted">1 defense</span></td></tr>
+<tr class="now"><td class="n">6</td><td class="who"><b>Scott Steiner &amp; Tully Blanchard</b></td><td>7/6/1991</td><td><a href="CHAMPION.HTM">Championship TV 7.6.1991 S2_E26</a></td><td>Recognized as champions: Scott Steiner hands Tully Blanchard one of the belts and Eddie Marlin announces them as champions.</td><td><span class="cur">Current</span>11+ days<br><span class="muted">0 defenses</span></td></tr>
+</table></div>
 <details><summary>The Dirty White Boys: title defenses and notes (7 defenses)</summary><ul>
-<li><a href="EVANSV-6.HTM">10/9/1990 &middot; Evansville, IN 10.09.1990</a>: The Dirty White Boys (Dirty White Boy and Tom Burton) defeated Viet Cong Express #1 and Viet Cong Express #2 when T. Burton defeated Viet Cong #2 by disqualification in 0:34:35. <b>***</b></li>
-<li><a href="MEMPH-14.HTM">10/15/1990 &middot; Memphis, TN 10.15.1990</a>: Jeff Jarrett and Jeff Gaylord and The Dirty White Boys (Dirty White Boy and Tom Burton) battled to a draw in 0:30:00. <b>**** 1/4</b></li>
-<li><a href="EVANSV-5.HTM">10/16/1990 &middot; Evansville, IN 10.16.1990</a>: The Dirty White Boys (Dirty White Boy and Tom Burton) defeated Jeff Jarrett and Jeff Gaylord when White Boy pinned Gaylord with the Bucksnort Blaster in 0:10:22. <b>** 1/4</b></li>
-<li><a href="JONESB-1.HTM">10/19/1990 &middot; Jonesboro, AR 10.19.1990</a>: The Dirty White Boys (Dirty White Boy and Tom Burton) defeated Jeff Jarrett and Jeff Gaylord when White Boy pinned Gaylord with the Bucksnort Blaster in 0:16:04. <b>** 1/4</b></li>
-<li><a href="MEMPH-13.HTM">10/22/1990 &middot; Memphis, TN 10.22.1990</a>: The Dirty White Boys (Dirty White Boy and Tom Burton) defeated Jeff Jarrett and Jeff Gaylord when White Boy pinned Gaylord with the Bucksnort Blaster in 0:07:11. <b>** 1/2</b></li>
-<li><a href="LOUISV-E.HTM">10/26/1990 &middot; Louisville, KY 10.26.1990</a>: The Dirty White Boys (Dirty White Boy and Tom Burton) defeated Southern Rockers (Steven Doll and Rex King) when T. Burton pinned Rex King after a backbreaker in 0:12:04. <b>***</b></li>
-<li><a href="LOUISV-D.HTM">11/1/1990 &middot; Louisville, KY 11.01.1990</a>: The Dirty White Boys (Dirty White Boy and Tom Burton) defeated Scott Taylor and Joey Maggs when White Boy pinned Maggs with the Bucksnort Blaster in 0:13:00. <b>** 1/4</b></li>
+<li><a href="EVANSV-6.HTM">10/9/1990 &middot; Evansville, IN 10.09.1990</a>: The Dirty White Boys (Dirty White Boy and Tom Burton) defeated Viet Cong Express #1 and Viet Cong Express #2 when T. Burton defeated Viet Cong #2 by disqualification in 0:34:35. <span class="star">***</span></li>
+<li><a href="MEMPH-14.HTM">10/15/1990 &middot; Memphis, TN 10.15.1990</a>: Jeff Jarrett and Jeff Gaylord and The Dirty White Boys (Dirty White Boy and Tom Burton) battled to a draw in 0:30:00. <span class="star">**** 1/4</span></li>
+<li><a href="EVANSV-5.HTM">10/16/1990 &middot; Evansville, IN 10.16.1990</a>: The Dirty White Boys (Dirty White Boy and Tom Burton) defeated Jeff Jarrett and Jeff Gaylord when White Boy pinned Gaylord with the Bucksnort Blaster in 0:10:22. <span class="star">** 1/4</span></li>
+<li><a href="JONESB-1.HTM">10/19/1990 &middot; Jonesboro, AR 10.19.1990</a>: The Dirty White Boys (Dirty White Boy and Tom Burton) defeated Jeff Jarrett and Jeff Gaylord when White Boy pinned Gaylord with the Bucksnort Blaster in 0:16:04. <span class="star">** 1/4</span></li>
+<li><a href="MEMPH-13.HTM">10/22/1990 &middot; Memphis, TN 10.22.1990</a>: The Dirty White Boys (Dirty White Boy and Tom Burton) defeated Jeff Jarrett and Jeff Gaylord when White Boy pinned Gaylord with the Bucksnort Blaster in 0:07:11. <span class="star">** 1/2</span></li>
+<li><a href="LOUISV-E.HTM">10/26/1990 &middot; Louisville, KY 10.26.1990</a>: The Dirty White Boys (Dirty White Boy and Tom Burton) defeated Southern Rockers (Steven Doll and Rex King) when T. Burton pinned Rex King after a backbreaker in 0:12:04. <span class="star">***</span></li>
+<li><a href="LOUISV-D.HTM">11/1/1990 &middot; Louisville, KY 11.01.1990</a>: The Dirty White Boys (Dirty White Boy and Tom Burton) defeated Scott Taylor and Joey Maggs when White Boy pinned Maggs with the Bucksnort Blaster in 0:13:00. <span class="star">** 1/4</span></li>
 </ul></details>
-<details><summary>The Nightmares: title defenses and notes (1 defenses)</summary><ul>
-<li><a href="MEMPHI-A.HTM">1/14/1991 &middot; Memphis, TN 1.14.1991 Tag League</a>: The Nightmares (Nightmare Danny Davis and Nightmare Ken Wayne) defeated The Hart Foundation (Bret Hart and Jim Neidhart) when Nightmare Ken Wayne pinned Neidhart with the FLYING STOMP in 0:16:21. <b>** 1/2</b></li>
+<details><summary>The Nightmares: title defenses and notes (1 defense)</summary><ul>
+<li><a href="MEMPHI-A.HTM">1/14/1991 &middot; Memphis, TN 1.14.1991 Tag League</a>: The Nightmares (Nightmare Danny Davis and Nightmare Ken Wayne) defeated The Hart Foundation (Bret Hart and Jim Neidhart) when Nightmare Ken Wayne pinned Neidhart with the FLYING STOMP in 0:16:21. <span class="star">** 1/2</span></li>
 </ul></details>
 <details><summary>The Steiner Brothers: title defenses and notes (4 defenses)</summary><ul>
-<li><a href="MEMPHI-9.HTM">1/28/1991 &middot; Memphis, TN 1.28.1991</a>: The Steiner Brothers (Rick Steiner and Scott Steiner) defeated The Nightmares (Nightmare Danny Davis and Nightmare Ken Wayne) when R. Steiner defeated Nightmare Ken Wayne when Nightmare Ken Wayne passed out in a double reverse chinlock in 0:08:57. <b>** 1/2</b></li>
-<li><a href="MEMPHI-5.HTM">2/25/1991 &middot; Memphis, TN 2.25.1991</a>: The Steiner Brothers (Rick Steiner and Scott Steiner) defeated The Moondogs (Moondog Spot and Moondog Rex) when R. Steiner defeated Rex by countout in 0:18:50. <b>*** 1/4</b></li>
-<li><a href="LOUISV-4.HTM">3/1/1991 &middot; Louisville, Ky 3.1.1991</a>: The Steiner Brothers (Rick Steiner and Scott Steiner) defeated The Twilight Zone (Nebula and Quasar) when R. Steiner pinned Nebula after the Top Rope Bulldog in 0:09:56. <b>** 3/4</b></li>
-<li><a href="MEMPHI-4.HTM">3/4/1991 &middot; Memphis, TN 3.4.1991 Fully Loaded</a>: No-Countout-No-DQ-Match: The Steiner Brothers (Rick Steiner and Scott Steiner) defeated The Von Erich Brothers (Kerry Von Erich and Kevin Von Erich) when S. Steiner pinned Tornado with the Frankensteiner in 0:31:41. <b>**** 3/4</b></li>
+<li><a href="MEMPHI-9.HTM">1/28/1991 &middot; Memphis, TN 1.28.1991</a>: The Steiner Brothers (Rick Steiner and Scott Steiner) defeated The Nightmares (Nightmare Danny Davis and Nightmare Ken Wayne) when R. Steiner defeated Nightmare Ken Wayne when Nightmare Ken Wayne passed out in a double reverse chinlock in 0:08:57. <span class="star">** 1/2</span></li>
+<li><a href="MEMPHI-5.HTM">2/25/1991 &middot; Memphis, TN 2.25.1991</a>: The Steiner Brothers (Rick Steiner and Scott Steiner) defeated The Moondogs (Moondog Spot and Moondog Rex) when R. Steiner defeated Rex by countout in 0:18:50. <span class="star">*** 1/4</span></li>
+<li><a href="LOUISV-4.HTM">3/1/1991 &middot; Louisville, Ky 3.1.1991</a>: The Steiner Brothers (Rick Steiner and Scott Steiner) defeated The Twilight Zone (Nebula and Quasar) when R. Steiner pinned Nebula after the Top Rope Bulldog in 0:09:56. <span class="star">** 3/4</span></li>
+<li><a href="MEMPHI-4.HTM">3/4/1991 &middot; Memphis, TN 3.4.1991 Fully Loaded</a>: No-Countout-No-DQ-Match: The Steiner Brothers (Rick Steiner and Scott Steiner) defeated The Von Erich Brothers (Kerry Von Erich and Kevin Von Erich) when S. Steiner pinned Tornado with the Frankensteiner in 0:31:41. <span class="star">**** 3/4</span></li>
 </ul></details>
-<details><summary>The Von Erich Brothers: title defenses and notes (1 defenses)</summary><ul>
-<li><a href="DALLAS__.HTM">3/30/1991 &middot; Dallas, TX Sportatorium debut 3.30.1991</a>: Match where the title can change hands via DQ or countout: The Von Erich Brothers (Kerry Von Erich and Kevin Von Erich) defeated Jerry Lawler and Dutch Mantell when Kevin Von Erich defeated Dutch Mantell by countout in 0:17:47. <b>** 1/4</b></li>
+<details><summary>The Von Erich Brothers: title defenses and notes (1 defense)</summary><ul>
+<li><a href="DALLAS__.HTM">3/30/1991 &middot; Dallas, TX Sportatorium debut 3.30.1991</a>: Match where the title can change hands via DQ or countout: The Von Erich Brothers (Kerry Von Erich and Kevin Von Erich) defeated Jerry Lawler and Dutch Mantell when Kevin Von Erich defeated Dutch Mantell by countout in 0:17:47. <span class="star">** 1/4</span></li>
 </ul></details>
-<details><summary>The Steiner Brothers: title defenses and notes (1 defenses)</summary><ul>
-<li><a href="FRIDAY-2.HTM">5/24/1991 &middot; Friday Night Fights 5.24.1991 S1_E1</a>: The Steiner Brothers (Rick Steiner and Scott Steiner) defeated Honky Tonk Man and Dirty White Boy when S. Steiner pinned Honky Tonk Man with the Frankensteiner in 0:13:17. <b>*** 1/4</b></li>
+<details><summary>The Steiner Brothers: title defenses and notes (1 defense)</summary><ul>
+<li><a href="FRIDAY-2.HTM">5/24/1991 &middot; Friday Night Fights 5.24.1991 S1_E1</a>: The Steiner Brothers (Rick Steiner and Scott Steiner) defeated Honky Tonk Man and Dirty White Boy when S. Steiner pinned Honky Tonk Man with the Frankensteiner in 0:13:17. <span class="star">*** 1/4</span></li>
 <li><a href="CHAMPI-3.HTM">6/15/1991 &middot; Championshop TV 6.15.1991 S2_E23</a>: <i>With Rick Steiner injured, Eddie Marlin asks Scott Steiner to bring the belts so they can be vacated. Robert Fuller offers to help defend them.</i></li>
 </ul></details>
-<h2 id="t3">USWA Television</h2>
-<table><tr><th>#</th><th>Champion</th><th>Won</th><th>Event</th><th>How</th><th>Reign</th></tr>
+<h2 class="sec" id="t3">USWA Television</h2>
+<div class="tbl-wrap"><table><tr><th>#</th><th>Champion</th><th>Won</th><th>Event</th><th>How</th><th>Reign</th></tr>
 <tr class="vac"><td class="n"></td><td>Vacant</td><td>4/24/1991</td><td><a href="WORLDW-C.HTM">Worldwide 4.24.1991 S1_E1</a></td><td>Eddie Marlin announces the new USWA Television Title, to be decided by a tournament.</td><td></td></tr>
-<tr><td class="n">1</td><td><b>Bill Dundee</b></td><td>6/21/1991</td><td><a href="FRIDAY-1.HTM">Friday Night Fights Nashville, TN 6.21.1991</a></td><td>Tournament final: Bill Dundee pinned Brickhouse Brown after a dragon suplex in 0:03:13. <b>***</b></td><td><span class="cur">Current</span>, 26+ days<br><span class="muted">2 defenses</span></td></tr>
-</table>
+<tr class="now"><td class="n">1</td><td class="who"><b>Bill Dundee</b></td><td>6/21/1991</td><td><a href="FRIDAY-1.HTM">Friday Night Fights Nashville, TN 6.21.1991</a></td><td>Tournament final: Bill Dundee pinned Brickhouse Brown after a dragon suplex in 0:03:13. <span class="star">***</span></td><td><span class="cur">Current</span>26+ days<br><span class="muted">2 defenses</span></td></tr>
+</table></div>
 <details><summary>Bill Dundee: title defenses and notes (2 defenses)</summary><ul>
-<li><a href="FRIDAY_N.HTM">6/28/1991 &middot; Friday Night Fights 6.28.1991 Louisville, KY</a>: Andre the Giant defeated Bill Dundee by countout in 0:12:42. <b>1/2*</b></li>
-<li><a href="WORLDW-1.HTM">7/10/1991 &middot; Worldwide 7.10.1991 S1_E12</a>: Bill Dundee pinned Chris Adams with the PILEDRIVER in 0:17:10. <b>** 1/2</b></li>
+<li><a href="FRIDAY_N.HTM">6/28/1991 &middot; Friday Night Fights 6.28.1991 Louisville, KY</a>: Andre the Giant defeated Bill Dundee by countout in 0:12:42. <span class="star">1/2*</span></li>
+<li><a href="WORLDW-1.HTM">7/10/1991 &middot; Worldwide 7.10.1991 S1_E12</a>: Bill Dundee pinned Chris Adams with the PILEDRIVER in 0:17:10. <span class="star">** 1/2</span></li>
 </ul></details>
-<p><hr><span class="muted">Updated 11-14-2026</span></p></body></html>
+<footer><a href="https://shovan123-lang.github.io/TNMWorld/">&larr; Back to the World Report front page</a> &middot; <a href="WELCOME.HTM">USWA card list</a><br>Updated 11-24-2026</footer></div></body></html>
